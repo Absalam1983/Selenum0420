@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="27557" started-at="2020-09-01T05:06:35Z" finished-at="2020-09-01T05:07:03Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.nexttech.testrunner.TestRunnerNG$Testrunner@1794d431]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Nopackage" duration-ms="27557" started-at="2020-09-01T05:06:35Z" finished-at="2020-09-01T05:07:03Z">
+      <class name="com.nexttech.testrunner.TestRunnerNG$Testrunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.nexttech.testrunner.TestRunnerNG$Testrunner@1794d431]" name="setUpClass" is-config="true" duration-ms="301" started-at="2020-09-01T05:06:35Z" finished-at="2020-09-01T05:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.nexttech.testrunner.TestRunnerNG$Testrunner@1794d431]" name="feature" duration-ms="14514" started-at="2020-09-01T05:06:36Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-01T05:06:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Digital service & device support]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.nexttech.testrunner.TestRunnerNG$Testrunner@1794d431]" name="feature" duration-ms="12605" started-at="2020-09-01T05:06:50Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-09-01T05:07:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User want to Sign in & Sign Off from Oscommerce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.nexttech.testrunner.TestRunnerNG$Testrunner@1794d431]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2020-09-01T05:07:03Z" finished-at="2020-09-01T05:07:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.nexttech.testrunner.TestRunnerNG$Testrunner -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>

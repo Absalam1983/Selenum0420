@@ -1,0 +1,312 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# Md Salam"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "validation of Digital service \u0026 device support",
+        "description": "",
+        "id": "digital-service-\u0026-device-support;validation-of-digital-service-\u0026-device-support",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 161547300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user visit homepage",
+            "match": {
+              "location": "customerservice.user_visit_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click on customer service",
+            "match": {
+              "location": "customerservice.user_click_on_customer_service()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on Digital service \u0026 device support",
+            "match": {
+              "location": "customerservice.user_click_on_Digital_service_device_support()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should redirect to Digital service \u0026 device support page",
+            "match": {
+              "location": "customerservice.user_should_redirect_to_Digital_service_device_support_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Digital service \u0026 device support",
+    "description": "",
+    "id": "digital-service-\u0026-device-support",
+    "keyword": "Feature",
+    "uri": "customerservice.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@Customerservice"
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "positive login \u0026 logout with valid E-Mail addriss and password",
+        "description": "",
+        "id": "user-want-to-sign-in-\u0026-sign-off-from--gmail--account;positive-login-\u0026-logout-with-valid-e-mail-addriss-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 79700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user visiting homepage",
+            "match": {
+              "location": "login.user_visiting_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click my account button",
+            "match": {
+              "location": "gmail_login.click_my_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3271000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"absalam164@gmail.com\" \u0026 \"296408Ab$\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "absalam164@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "296408Ab$",
+                  "offset": 37
+                }
+              ],
+              "location": "gmail_login.user_enter(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on sign in button",
+            "match": {
+              "location": "login.user_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user successfuly login to  the system",
+            "match": {
+              "location": "gmail_login.user_successfuly_login_to_the_system()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on sing off button for logout",
+            "match": {
+              "location": "gmail_login.user_click_on_sing_off_button_for_logout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "user want to sign in \u0026 sign off from  gmail  account",
+    "description": "",
+    "id": "user-want-to-sign-in-\u0026-sign-off-from--gmail--account",
+    "keyword": "Feature",
+    "uri": "gmail_login.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Md Salam"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Positive login and logout with valid E-Mail Address and Password",
+        "description": "",
+        "id": "user-want-to-sign-in-\u0026-sign-off-from-oscommerce;positive-login-and-logout-with-valid-e-mail-address-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user visiting homepage",
+            "match": {
+              "location": "login.user_visiting_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click My Account button",
+            "match": {
+              "location": "login.click_My_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enter \"pat@yahoo.com\" and \"Abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pat@yahoo.com",
+                  "offset": 12
+                },
+                {
+                  "val": "Abc123",
+                  "offset": 32
+                }
+              ],
+              "location": "login.user_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click on sign in button",
+            "match": {
+              "location": "login.user_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user successfully login to the system",
+            "match": {
+              "location": "login.user_successfully_login_to_the_system()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click on Log off Button for logout",
+            "match": {
+              "location": "login.user_click_on_Log_off_Button_for_logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@UserLogin"
+          }
+        ]
+      }
+    ],
+    "name": "User want to Sign in \u0026 Sign Off from Oscommerce",
+    "description": "\r\nIn order to Sign in and Sign Off from account\r\nAs a register user\r\nI want to enter E-Mail Address, password, and click sign-in to login\r\nand Click Sign Off for Sign Out",
+    "id": "user-want-to-sign-in-\u0026-sign-off-from-oscommerce",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@UserLogin"
+      }
+    ]
+  }
+]
